@@ -60,7 +60,7 @@ h2 {
 .btn {
     display: inline-block;
     padding: 12px 30px;
-    background-color: #2563eb;
+    background-color: #ab5caf;
     color: #fff;
     text-decoration: none;
     border: none;
@@ -70,7 +70,7 @@ h2 {
 }
 
 .btn:hover {
-    background-color: #1d4ed8;
+    background-color: #783e7b;
 }
 
 /*SECCIÓN SERVICIOS  */
@@ -148,7 +148,7 @@ h2 {
 
 /* SECCIÓN PIE DE PÁGINA */
 .footer {
-    background-color: #1e293b;
+    background-color: #ab5caf;
     color: #fff;
     text-align: center;
     padding: 30px 20px;
@@ -159,7 +159,7 @@ h2 {
 }
 
 .redes-sociales a {
-    color: #93c5fd;
+    color: #f0c7ef;
     text-decoration: none;
     margin: 0 10px;
 }
