@@ -13,20 +13,55 @@
     <section id="inicio">
         <h1>Creativa Studio</h1>
         <p>Transformamos ideas en experiencias digitales increíbles</p>
+        <a href="#contacto">Contáctanos</a>
     </section>
 
 
     <section id="servicios">
         <h2>Nuestros Servicios</h2>
+        <div class="servicios-contenedor">
+            <div class="servicio-card">
+                <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600" alt="Diseño Web">
+                <h3>Diseño Web</h3>
+                <p>Creamos sitios web modernos, responsivos y atractivos que destacan tu marca en el mundo digital.</p>
+            </div>
+            <div class="servicio-card">
+                <img src="https://images.unsplash.com/photo-1626785774625-ddcddc3445e9?w=600" alt="Branding">
+                <h3>Branding</h3>
+                <p>Desarrollamos identidades visuales únicas que comunican la esencia de tu negocio.</p>
+            </div>
+        </div>
     </section>
 
 
     <section id="contacto">
         <h2>Contacto</h2>
+        <form action="#" method="POST">
+            <div class="campo">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="campo">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+            </div>
+            <div class="campo">
+                <label for="pregunta">Pregunta</label>
+                <textarea id="pregunta" name="pregunta" rows="5" placeholder="Escribe tu pregunta aquí..."
+                    required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
     </section>
 
 
     <footer>
+        <div class="redes-sociales">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </div>
         <p>&copy; 2026 Creativa Studio. Todos los derechos reservados.</p>
     </footer>
 
