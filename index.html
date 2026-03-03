@@ -10,14 +10,16 @@
 
 <body>
 
-    <section id="inicio">
-        <h1>Creativa Studio</h1>
-        <p>Transformamos ideas en experiencias digitales increíbles</p>
-        <a href="#contacto">Contáctanos</a>
+    <section id="inicio" class="hero">
+        <div class="hero-contenido">
+            <h1>Creativa Studio</h1>
+            <p class="eslogan">Transformamos ideas en experiencias digitales increíbles</p>
+            <a href="#contacto" class="btn">Contáctanos</a>
+        </div>
     </section>
 
 
-    <section id="servicios">
+    <section id="servicios" class="servicios">
         <h2>Nuestros Servicios</h2>
         <div class="servicios-contenedor">
             <div class="servicio-card">
@@ -34,9 +36,9 @@
     </section>
 
 
-    <section id="contacto">
+    <section id="contacto" class="contacto">
         <h2>Contacto</h2>
-        <form action="#" method="POST">
+        <form class="formulario" action="#" method="POST">
             <div class="campo">
                 <label for="nombre">Nombre</label>
                 <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
@@ -50,12 +52,12 @@
                 <textarea id="pregunta" name="pregunta" rows="5" placeholder="Escribe tu pregunta aquí..."
                     required></textarea>
             </div>
-            <button type="submit">Enviar</button>
+            <button type="submit" class="btn">Enviar</button>
         </form>
     </section>
 
 
-    <footer>
+    <footer class="footer">
         <div class="redes-sociales">
             <a href="https://facebook.com" target="_blank">Facebook</a>
             <a href="https://instagram.com" target="_blank">Instagram</a>
